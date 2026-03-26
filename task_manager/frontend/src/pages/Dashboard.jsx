@@ -116,7 +116,7 @@ export default function Dashboard() {
               <div>
                 <h3 style={{ margin: '0 0 0.5rem 0' }}>{task.title}</h3>
                 <p style={{ margin: 0, color: 'var(--text-muted)' }}>{task.description}</p>
-                <small style={{ color: 'var(--border)', display: 'block', marginTop: '0.5rem' }}>
+                <small style={{ color: 'white', display: 'block', marginTop: '0.5rem', opacity: 0.8 }}>
                   Created on: {new Date(task.createdAt).toLocaleDateString()}
                 </small>
               </div>
